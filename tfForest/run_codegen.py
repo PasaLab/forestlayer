@@ -29,7 +29,7 @@ print("PS:", ps_hosts)
 print("WORKER:", worker_hosts)
 print("MERGER:", merger_hosts)
 
-with_merger = True
+with_merger = False
 
 if not with_merger:
     with open("ps16.sh", 'w') as f:
